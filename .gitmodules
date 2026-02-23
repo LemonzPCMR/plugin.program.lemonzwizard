@@ -1,0 +1,3 @@
+[submodule "repo"]
+	path = repo
+	url = https://github.com/LemonzPCMR/plugin.program.lemonzwizard.git
