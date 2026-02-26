@@ -38,6 +38,8 @@ jobs:
           steps:
             run: git ls-files -m ./zips/|grep -v ".zip"
       - run: |
+          git config user.email "ci@lemonzpcmr.github.io"
+          git config user.name "CircleCI"
           git add ./zips
           git commit -m "Release version ${CIRCLE_TAG-0.0.$CIRCLE_BUILD_NUM}"
           git push
