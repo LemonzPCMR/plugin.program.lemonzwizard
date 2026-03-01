@@ -1,5 +1,5 @@
 '''#####-----Build File-----#####'''
-buildfile = 'http://CHANGEME'
+buildfile = 'https://lemonzpcmr.github.io/omegabuilds/omega.xml'
 
 '''#####-----Videos File-----#####'''
 videos_url = 'http://CHANGEME'
